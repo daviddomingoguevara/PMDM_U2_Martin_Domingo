@@ -11,6 +11,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.ejemplo.enrutamientoavanzado.databinding.FragmentFirstBinding;
 public class FirstFragment extends Fragment {
     private FragmentFirstBinding binding;
+
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -18,6 +19,7 @@ public class FirstFragment extends Fragment {
         binding = FragmentFirstBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
+
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -37,9 +39,22 @@ public class FirstFragment extends Fragment {
             NavHostFragment.findNavController(FirstFragment.this).navigate(action);
         });
     }
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null; // (F) Evitar fugas de memoria
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
