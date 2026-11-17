@@ -1,7 +1,4 @@
 package com.ejemplo.mistareas;
-/**
- * Modelo de datos: una tarea. Solo guarda información, no sabe nada de la pantalla.
- */
 public class Tarea {
     public static final int PRIORIDAD_BAJA = 0;
     public static final int PRIORIDAD_MEDIA = 1;
@@ -27,7 +24,46 @@ public class Tarea {
     public void setPrioridad(int prioridad) { this.prioridad = prioridad; }
     public boolean isCompletada() { return completada; }
     public void setCompletada(boolean completada) { this.completada = completada; }
-
     public String getFechaLimite() { return fechaLimite; }
     public void setFechaLimite(String fechaLimite) { this.fechaLimite = fechaLimite;}
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
