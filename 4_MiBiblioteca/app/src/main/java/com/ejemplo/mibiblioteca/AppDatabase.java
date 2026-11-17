@@ -7,11 +7,9 @@ import androidx.room.RoomDatabase;
 
 @Database(entities = {Libro.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
-
     public abstract LibroDao libroDao();
 
     private static volatile AppDatabase instancia;
-
     public static AppDatabase getInstance(Context context) {
         if (instancia == null) {
             synchronized (AppDatabase.class) {
