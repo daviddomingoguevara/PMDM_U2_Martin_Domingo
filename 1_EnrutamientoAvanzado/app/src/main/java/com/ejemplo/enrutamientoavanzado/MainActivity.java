@@ -70,6 +70,10 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
+
+
     @Override
     public boolean onSupportNavigateUp() {
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager()
@@ -82,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
         return handled || super.onSupportNavigateUp();
     }
 }
+
+
+//
+
 
 
 
