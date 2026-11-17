@@ -22,3 +22,33 @@ public class Noticia {
     public boolean isFavorita() { return favorita; }
     public void setFavorita(boolean favorita) { this.favorita = favorita; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sjfksd
+* dfdf
+* sdfsd
+* */

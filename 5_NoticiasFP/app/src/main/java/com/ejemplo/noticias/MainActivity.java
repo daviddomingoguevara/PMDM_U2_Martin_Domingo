@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements NoticiaAdapter.On
     public void onLeer(Noticia noticia) {
         Snackbar.make(binding.main, getString(R.string.abriendo, noticia.getTitulo()), Snackbar.LENGTH_SHORT)
                 .setAnchorView(binding.fab)
-                .show();
+                .show(); //
     }
 
     @Override
@@ -156,7 +156,27 @@ public class MainActivity extends AppCompatActivity implements NoticiaAdapter.On
         if (seccion == R.id.nav_favoritas) {
             aplicarFiltro();
         } else {
-            adapter.notifyItemChanged(posicion);
+            adapter.notifyItemChanged(posicion);  //g
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
